@@ -1,5 +1,3 @@
-package paketDomaci23;
-
 import java.sql.*;
 
 public class DBStudentskaBaza {
@@ -197,7 +195,7 @@ public class DBStudentskaBaza {
 			e.printStackTrace();
 		}
 	}
-// 8. Izdvojiti nazive predmeta i njihovu cenu za samofinansirajuce studente izrazenu u dinarima. Jedan bod koöta 1500 dinara.
+// 8. Izdvojiti nazive predmeta i njihovu cenu za samofinansirajuce studente izrazenu u dinarima. Jedan bod ko≈°ta 1500 dinara.
 	public void cenaPredmeta() {
 		String upit = "SELECT predmet.naziv, bodovi*1500 AS cena FROM predmet";
 		
