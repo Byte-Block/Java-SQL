@@ -1,5 +1,3 @@
-package paketDomaci24;
-
 import java.sql.*;
 
 public class DBFudbalskiSavez {
